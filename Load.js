@@ -6,15 +6,14 @@ function move() {
     function frame() {
         if (width >= 100) {
             clearInterval(id);
-        }else if (width === 99) {
-            setTimeout(function() {}, 10);
-            width = 100;
-        }
-
+        } 
         else {
             width++; 
             elem.style.width = width + '%'; 
             elem.innerHTML = width * 1 + '%';
+            if(width === 100) {
+                window.location.replace("findWord.html");
+            }
 
         }
     }
