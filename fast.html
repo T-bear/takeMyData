@@ -2,45 +2,51 @@
 <html>
 <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Please insert your information here.</h1>
     <!--location to next page-->
     <form action="TheGrimTruth.html">
-      First name:<br>
+      <label>First name:</label><br>
       <input type="text" name="firstname" value="" required>
       <br>
-      Last name:<br>
+      <label>Last name:</label><br>
       <input type="text" name="firstname" value=""required>
       <br>
-      City:<br>
+      <label>City:</label><br>
       <input type="text" name="firstname" value=""required>
       <br>
-      Email:<br>
+      <label>Email:</label><br>
       <input type="text" name="firstname" value=""required>
       <br>
-      social number:<br>
+      <label>social number:</label><br>
       <input type="text" name="firstname" value=""required>
       <br>
-      shoe size:<br>
+      <label>shoe size:</label><br>
       <input type="text" name="firstname" value=""required>
       <br>
-      Credit card:<br>
+      <label>Credit card:</label><br>
 
 
             <div class="form-group owner">
-                <label>Owner</label>
-                <input type="text"  id="owner">
+                <label>Owner:</label><br>
+                <input type="text"  id="owner" required>
             </div>
             <div class="form-group CVV">
-                <label>CVV</label>
-                <input type="text"  id="cvv">
+                <label>CVV:</label><br>
+                <input type="text"  id="cvv"required>
             </div>
             <div class="form-group" id="card-number-field">
-                <label>Card Number</label>
-                <input type="text" id="cardNumber">
+                <label>Card Number:</label><br>
+                <input type="text" id="cardNumber"required>
             </div>
-            <div class="form-group" id="expiration-date">
-                <label>Expiration Date</label>
+            <div class="form-group" id="expiration-date"required>
+                <label>Expiration Date:</label>
                 <select>
                     <option value="01">January</option>
                     <option value="02">February </option>
@@ -76,7 +82,10 @@
 <!--Takes you to next page after pressing "proceed to the interet" button-->
             <input  type="submit" value="Proceed to the internet"> <p> or </p> <button onclick="window.location.href='index.html'" type="button">Change your mind</button>
     </form>
+    </div>
 
+    </div>
+    </div>
 
     <p id="agreement">*By proceeding to the internet you accept that the information you gave us can and will be used by us in anyway we want.</p>
     
