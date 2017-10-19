@@ -1,15 +1,25 @@
-#percentage {
+body {
 	
 }
 
+
+
 #myBar {
+	
     width: 1%;
     height: 30px;
-    background-color: steelblue;
+    background-color: black;
     text-align: center; /* To center it horizontally (if you want) */
     line-height: 30px; /* To center it vertically */
     color: white; 
     font-family: arial;
+    vertical-align: center;
+}
+#myProgress {
+	margin-top: 25%;
+	
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 @keyframes flickerAnimation {
@@ -33,6 +43,7 @@
   100% { opacity:1; }
 }
 .animate-flicker {
+	font-family: arial;
 	text-align: center;
    -webkit-animation: flickerAnimation 2s infinite;
    -moz-animation: flickerAnimation 2s infinite;
