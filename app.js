@@ -100,3 +100,7 @@ setTimeout("showIt14()", 105000); // after 150 sec
   document.getElementById("div14").style.visibility = "visible";
 }
   
+function showItPro() {
+  document.getElementById("pro-ad").style.visibility = "visible";
+}
+setTimeout("showItPro()", 5000); // after 1 sec

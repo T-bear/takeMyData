@@ -74,7 +74,7 @@ body {
 .animate-flicker {
 	font-family: arial;
   background-color: black;
-   margin-left: 45%;
+  margin-left: 45%;
   margin-right: 45%;
   border-radius: 10px;
   color: white;
@@ -91,4 +91,32 @@ body {
   margin-right: 20%;
   background-color: white;
   opacity: 1;
+}
+
+#pro-ad {
+
+  background-color: black;
+  position: absolute;
+    bottom: 1px;
+    width: 100%;
+    height: 55px;
+    color: white;
+
+}
+
+#pro-ad-btn {
+  background-color: #FFD700;
+    border-color: #EEE8AA;
+    color: #DAA520;
+    float: right;
+    margin-right: 50%;
+    border-style: none;
+    
+}
+
+#pro-ad-text {
+  color: white;
+  float: right;
+  text-align: center;
+  margin-right: 47%;
 }
