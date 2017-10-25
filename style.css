@@ -20,6 +20,9 @@ body {
     background: rgba(0, 0, 0, 0.7);
     font-weight: bold;
     color: white;
+    width: 50%;
+    align-content: center;
+    margin: auto;
 }
 
 #card {
@@ -125,3 +128,6 @@ body {
   font-family: arial;
 }
 
+center {
+  color: white;
+}
