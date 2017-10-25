@@ -41,7 +41,6 @@ body {
     color: #DAA520;
 }
 #myBar {
-	
     width: 1%;
     height: 30px;
     background-color: black;
@@ -50,10 +49,11 @@ body {
     color: white; 
     font-family: arial;
     vertical-align: center;
+    border-radius: 10px;
 }
 #myProgress {
-	margin-top: 25%;
-	
+  border-radius: 10px;
+	margin-top: 15%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -83,9 +83,22 @@ body {
 }
 .animate-flicker {
 	font-family: arial;
+  background-color: black;
+   margin-left: 45%;
+  margin-right: 45%;
+  border-radius: 10px;
+  color: white;
 	text-align: center;
    -webkit-animation: flickerAnimation 2s infinite;
    -moz-animation: flickerAnimation 2s infinite;
    -o-animation: flickerAnimation 2s infinite;
     animation: flickerAnimation 2s infinite;
 }
+
+#background {
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+  opacity: 1;
+} 
